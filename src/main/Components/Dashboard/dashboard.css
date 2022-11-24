@@ -1,0 +1,88 @@
+.root{
+    width: '100%';
+    background-color:grey
+  }
+
+.inline {
+    display: 'inline';
+  }
+
+.picStyle{
+    width: 200px ;
+    height: 200px;
+} 
+
+.cardStyle{
+    /* margin-left: 5%;
+    margin-right: 5%; */
+    display: flex   ;
+    flex-direction:row;   
+    flex-grow: 1;
+}
+
+.cardDivStyle{
+    display:flex; flex-direction:row;
+}
+.productHeaderStyle{
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: left;
+}
+.productDescriptionStyle{
+    font-size: 80%;
+    font-weight: normal;
+   
+    
+}
+.descriptionStyle{
+    /* max-width: 80%;
+    max-height: 80%;
+    min-width: 80%;
+    min-height: 80%; */
+}
+.buttonStyle{
+    /* max-width: 50%;
+    max-height: 20%;
+    min-width: 50%;
+    min-height: 20%; */
+    /* margin: 10%; */
+    width: 100%;
+    height: 20%;
+    
+}
+.buttonTextStyle{
+    margin: 10%;
+    font-size: 100%;
+}
+
+.dividerStyle{
+    width: 40%;
+ }
+@media(max-width:700px){
+    .picStyle{
+        width: 100px ;
+        height: 100px;
+    }
+    .productHeaderStyle{
+        font-size: 10px;
+        font-weight: bolder;
+    }
+    .productDescriptionStyle{
+        font-size: 70%;
+        font-weight: normal;
+        white-space: nowrap;
+        overflow: hidden;
+        width: 50px;
+        height: 50px;
+        text-overflow: ellipsis;
+    }
+    .buttonStyle{
+    
+        width: 25%;
+        height: 25%;
+    }
+    .buttonTextStyle{
+        margin: 1%;
+        font-size: 65%;
+    }
+} 

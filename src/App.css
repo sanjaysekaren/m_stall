@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+
+.headerStyle{
+  text-align: left;
+  font-size: '200%';
+  padding-left: 5%;
+  background-color: darkgray;
+}
